@@ -75,7 +75,7 @@ def get_pydantic_ai_docs_urls():
     Returns:
         List[str]: List of URLs with duplicates removed.
     """            
-    sitemap_url = "https://aveosoftware.ca/sitemap.xml"
+    sitemap_url = "sitemap_url = "https://example.com/sitemap.xml"
     try:
         response = requests.get(sitemap_url)
         response.raise_for_status()
